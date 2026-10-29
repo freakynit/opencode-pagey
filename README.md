@@ -168,7 +168,7 @@ content rejection, permission denial, SDK registration, and API projection.
 Live validation also exercised create → serve HTML/CSS → replace → settings →
 get → list against Pagey on October 29, 2026.
 
-`dist/` is committed for Git installation. After changing `src/`, run `bun run build`
+`dist/` is committed for Git installation. After changing `src/`, run `bun run build:plugin`
 and commit the result. CI checks that the committed build matches the source.
 The SDK is a development dependency; runtime dependencies are `zod` and `fflate`.
 
